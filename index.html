@@ -8,7 +8,7 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Victor_Ojong || Technophile</title>
+    <title>Victor_Ojong</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon2.png" />
     <!-- Custom Google font-->
@@ -32,7 +32,7 @@
   <body class="d-flex flex-column h-100">
     <main class="flex-shrink-0">
       <!-- Navigation-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white py-3" style="position: sticky;">
         <div class="container px-5">
           <a class="navbar-brand" href="index.html"
             ><span class="fw-bolder text-primary"
@@ -59,16 +59,19 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="resume.html">Resume</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="projects.html">Projects</a>
+                <a class="nav-link" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -101,7 +104,7 @@
                 >
                   <a
                     class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
-                    href="resume.html"
+                    href="#"
                     >Resume</a
                   >
                   <a
@@ -442,12 +445,12 @@
         </div>
       </header>
       <!-- About Section-->
-      <section class="bg-light py-5">
+      <section id="about" class="bg-light py-5">
         <div class="container px-5">
           <div class="row gx-5 justify-content-center">
             <div class="col-xxl-8">
               <div data-aos="zoom-in-up" class="text-center my-5">
-                <h2 class="display-5 fw-bolder">
+                <h2  class="display-5 fw-bolder">
                   <span class="text-gradient d-inline">About Me</span>
                 </h2>
                 <p class="lead fw-light mb-4">
@@ -479,7 +482,7 @@
             </div>
           </div>
            <!-- Projects Section-->
-      <section class="py-5">
+      <section id="projects" class="py-5">
         <div class="container px-5 mb-5">
           <div class="text-center mb-5">
             <h1 class="display-5 fw-bolder mb-0">
@@ -490,18 +493,12 @@
             <div class="col-lg-11 col-xl-9 col-xxl-8">
               <!-- Project Card 1-->
               <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                <div data-aos="flip-right" class="card-body p-0">
+                <div data-aos="flip-right" class="card-body p-0" style="background-image: url('./assets/typingmen.jpg');">
                   <div class="d-flex align-items-center">
                     <div class="p-5">
                       <h2 class="fw-bolder">
-                        University Automated Result Management System
+                        University Automated 
                       </h2>
-                      <p>
-                        Automated Result Management Portal using Node.js,
-                        Express, JWT, Mongo DB built in order to facilitate
-                        realtime result publishing and reduce human labour in
-                        result computation and analysis. This project was
-                        adopted for use by the University of Cross River.
                         <p>
                         <a
                           class="text-gradient"
@@ -517,15 +514,8 @@
                           ><i class="bi bi-globe"></i
                         ></a>
                         </p>
-                      </p>
+                 
                     </div>
-                    <img
-                      class="img-fluid"
-                      src="./assets/typingmen.jpg"
-                      alt="..."
-                      width="200"
-                      height="200"
-                    />
                   </div>
                 </div>
               </div>
@@ -535,18 +525,10 @@
                 class="card overflow-hidden shadow rounded-4 border-0 mb-5"
               >
                 <div class="card-body p-0">
-                  <div class="d-flex align-items-center">
-                    <div class="p-5">
+                  <div class="align-items-center">
+                    <div class="p-5" style="background-image: url('./assets/typingmen.jpg');">
                       <h2 class="fw-bolder">Smartchain Miner</h2>
-                      <p>
-                        Built with HTML, CSS, JavaScript, and PHP and MySQL Db ,
-                        the internationalization API to format currency based on
-                        the user's geolocation. This live bot preforms daily
-                        mining processes using the built-in random function in
-                        JavaScript and the current timestamps of transactions to
-                        keep track of transaction history.
-
-                         <p>
+                       <p>
                         <a
                           class="text-gradient"
                           href="https://github.com/victor-ojong/"
@@ -561,15 +543,8 @@
                           ><i class="bi bi-globe"></i
                         ></a>
                         </p>
-                      </p>
+                     
                     </div>
-                    <img
-                      class="img-fluid"
-                      src="./assets/typingmen.jpg"
-                      alt="..."
-                      width="200"
-                      height="200"
-                    />
                   </div>
                 </div>
               </div>
@@ -579,18 +554,11 @@
                 data-aos="flip-right"
                 class="card overflow-hidden shadow rounded-4 border-0 mb-5"
               >
-                <div class="card-body p-0">
+                <div class="card-body p-0" style="background-image: url(./assets/typingmen.jpg);">
                   <div class="d-flex align-items-center">
                     <div class="p-5">
                       <h2 class="fw-bolder">Smart Attendance Tracker</h2>
-                      <p>
-                        Attendace Tracker is designed to solve a problem common
-                        to Nigerian Universities in recent time, the problem of
-                        lack of accurate students attendace records achieved
-                        With the use of faceapi.js for realtime capturing,
-                        geospatial data and device binding.
-
-                         <p>
+                     <p>
                         <a
                           class="text-gradient"
                           href="https://github.com/victor-ojong/"
@@ -607,13 +575,6 @@
                         </p>
                       </p>
                     </div>
-                    <img
-                      class="img-fluid"
-                      src="./assets/typingmen.jpg"
-                      alt="..."
-                      width="200"
-                      height="200"
-                    />
                   </div>
                 </div>
               </div>
@@ -623,17 +584,11 @@
                 data-aos="flip-left"
                 class="card overflow-hidden shadow rounded-4 border-0 mb-5"
               >
-                <div class="card-body p-0">
+                <div class="card-body p-0" style="background-image: url(./assets/typingmen.jpg);">
                   <div class="d-flex align-items-center">
                     <div class="p-5">
                       <h2 class="fw-bolder">Switchtech Academy Portal</h2>
-                      <p>
-                        This project was built using basic web technologies like
-                        HTML,CSS, Bootstrap css and JavaScript in order to
-                        automate students activities like registration and fee
-                        payments.
-
-                         <p>
+                       <p>
                         <a
                           class="text-gradient"
                           href="https://github.com/victor-ojong/"
@@ -650,13 +605,6 @@
                         </p>
                       </p>
                     </div>
-                    <img
-                      class="img-fluid"
-                      src="./assets/typingmen.jpg"
-                      alt="..."
-                      width="200"
-                      height="200"
-                    />
                   </div>
                 </div>
               </div>
@@ -665,16 +613,12 @@
                 data-aos="flip-right"
                 class="card overflow-hidden shadow rounded-4 border-0"
               >
-                <div class="card-body p-0">
+                <div class="card-body p-0" style="background-image: url(./assets/typingmen.jpg);">
                   <div class="d-flex align-items-center">
                     <div class="p-5">
                       <h2 class="fw-bolder">Switch Play Game</h2>
                       <p>
-                        This game is built with HTML, CSS and JavaScript with
-                        extensive use of JavaScript in API methods in
-                        manipulating and traversing the Document Object Module
-                        (DOM), event handlers and the try/catch block to handle
-                        errors in the application.
+                    
 
                          <p>
                         <a
@@ -691,16 +635,8 @@
                           ><i class="bi bi-globe"></i
                         ></a>
                         </p>
-                      </p>
+                  
                     </div>
-
-                    <img
-                      class="img-fluid"
-                      src="./assets/typingmen.jpg"
-                      alt="..."
-                      width="200"
-                      height="200"
-                    />
                   </div>
                 </div>
               </div>
@@ -710,7 +646,7 @@
       </section>
           <!-- testimonials starts here -->
           <!-- heading for testimonials -->
-          <h2 class="fw-bolder">
+          <h2 id="testimonials" style="text-align: center;" class="fw-bolder">
             <span class="text-gradient">Testimonials</span>
           </h2>
           <br />
@@ -767,7 +703,7 @@
         </div>
       </section>
        <!-- Page content-->
-      <section class="py-5">
+      <section id="contact" class="py-5">
         <div class="container px-5">
           <!-- Contact form-->
           <div class="bg-light rounded-4 py-5 px-4 px-md-5">
@@ -891,15 +827,15 @@
         >
           <div class="col-auto">
             <div class="small m-0">
-              Copyright &copy; Victor's portfolio 2023
+              Copyright &copy; Victor's portfolio 2024
             </div>
           </div>
           <div class="col-auto">
-            <a class="small" href="projects.html">Projects</a>
+            <a class="small" href="#">Top</a>
             <span class="mx-1">&middot;</span>
-            <a class="small" href="resume.html">Resume</a>
+            <a class="small" href="#">Resume</a>
             <span class="mx-1">&middot;</span>
-            <a class="small" href="contact.html">Contact</a>
+            <a class="small" href="#projects">Project</a>
           </div>
         </div>
       </div>
@@ -912,7 +848,7 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({
-        duration: 2000,
+        duration: 1500,
         once: false,
       });
     </script>
