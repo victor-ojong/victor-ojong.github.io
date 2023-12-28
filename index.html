@@ -28,6 +28,30 @@
 
     <!-- AOS CDN -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <style>
+    /* Define the keyframes for the rotation */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Apply the animation to the image */
+.rotating-image {
+  /* Set the duration of the animation */
+  animation: rotate 40s linear infinite; /* You can adjust the duration (10s in this example) to control the speed of rotation */
+
+}
+
+#skills{
+    text-align: center;
+    margin: 3%;
+}
+/* set rules for rensponsive screen size */
+  </style>
   </head>
   <body class="d-flex flex-column h-100">
     <main class="flex-shrink-0">
@@ -119,8 +143,7 @@
               <!-- Header profile picture-->
               <div class="d-flex justify-content-center mt-5 mt-xxl-0">
                 <div class="profile bg-gradient-primary-to-secondary">
-                  <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
-                  <!-- Watch a tutorial on how to do this on YouTube (link)-->
+               
                   <img class="profile-img" src="assets/profile.png" alt="..." />
                   <div class="dots-1">
                     <!-- SVG Dots-->
@@ -454,12 +477,17 @@
                   <span class="text-gradient d-inline">About Me</span>
                 </h2>
                 <p class="lead fw-light mb-4">
-                  Hello! I am Victor, a highly motivated and passionate
-                  individual eager to secure a position as software Developer.
-                  With a deep enthusiasm for innovation and a drive to make a
-                  meaningful impact, I am excited to contribute my skills and
-                  dedication to a dynamic software development team. Let's
-                  unlock new possibilities together!
+                  My expertise lies in transforming ideas into seamless digital experiences.
+
+I bring a blend of creativity and technical prowess to create innovative solutions that make the world a smaller, more connected place.
+<br>
+<br>
+
+Outside of coding, I'm a dedicated educator, simplifying complex algorithms and data structures for aspiring professionals. I believe in empowering the next generation with the skills they need to thrive in the ever-evolving tech landscape.
+<br>
+<br>
+
+Let's connect!
                 </p>
                 <div class="d-flex justify-content-center fs-2 gap-4">
                   <a
@@ -481,6 +509,17 @@
               </div>
             </div>
           </div>
+
+              <div id="skills">
+              <img  loading="lazy" 
+                class="img-fluid wow zoomIn rotating-image"
+                data-wow-delay="0.5s"
+                src="./assets/rotate.png"
+                alt="an image showing our team work culture"
+                width="80%"
+                height="80%"
+              />
+            </div>
            <!-- Projects Section-->
       <section id="projects" class="py-5">
         <div class="container px-5 mb-5">
@@ -495,26 +534,14 @@
               <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                 <div data-aos="flip-right" class="card-body p-0">
                   <div class="d-flex align-items-center">
+                    <a href="https://switchtechglobal.com.ng/"  target="_blank">
                     <div class="">
                     
-                        <p>
-                        <a
-                          class="text-gradient"
-                          href="https://github.com/victor-ojong/"
-                          ><i class="bi bi-github"></i
-                        ></a>
-                        
-                        </p>
-                        <p>
-                        <a
-                          class="text-gradient"
-                          href="https://github.com/victor-ojong/"
-                          ><i class="bi bi-globe"></i
-                        ></a>
-                        </p>
+              
                         <img src="./assets/port1.png" alt="" width="100%">
                      
                     </div>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -525,26 +552,14 @@
               >
                 <div class="card-body p-0">
                   <div class="align-items-center">
+                    <a href="https://mentored.pro/"  target="_blank">
                     <div class="">
                     
-                       <p>
-                        <a
-                          class="text-gradient"
-                          href="https://github.com/victor-ojong/"
-                          ><i class="bi bi-github"></i
-                        ></a>
-                        
-                        </p>
-                        <p>
-                        <a
-                          class="text-gradient"
-                          href="https://github.com/victor-ojong/"
-                          ><i class="bi bi-globe"></i
-                        ></a>
-                        </p>
+                   
                         <img src="./assets/port4.png" alt="" width="100%">
                      
                     </div>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -556,25 +571,14 @@
               >
                 <div class="card-body p-0">
                   <div class="d-flex align-items-center">
+                    <a href="https://logistics-for-me.netlify.app/"  target="_blank">
+                    
                     <div class="">
-                   <p>
-                        <a
-                          class="text-gradient"
-                          href="https://github.com/victor-ojong/"
-                          ><i class="bi bi-github"></i
-                        ></a>
-                      </p>
-                        <p>
-                        <a
-                          class="text-gradient"
-                          href="https://github.com/victor-ojong/"
-                          ><i class="bi bi-globe"></i
-                        ></a>
-                        </p>
-                      </p>
+                  
                         <img src="./assets/port2.png" alt="" width="100%">
 
                     </div>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -586,26 +590,13 @@
               >
                 <div class="card-body p-0">
                   <div class="d-flex align-items-center">
+                    <a href="https://legacydungeonsuite.com/"  target="_blank">
                     <div class="">
-                    
-                       <p>
-                        <a
-                          class="text-gradient"
-                          href="https://github.com/victor-ojong/"
-                          ><i class="bi bi-github"></i
-                        ></a>
-                      </p>
-                        <p>
-                        <a
-                          class="text-gradient"
-                          href="https://github.com/victor-ojong/"
-                          ><i class="bi bi-globe"></i
-                        ></a>
-                        </p>
-                      </p>
+                  
                         <img src="./assets/port6.png" alt="" width="100%">
 
                     </div>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -616,28 +607,15 @@
               >
                 <div class="card-body p-0">
                   <div class="d-flex align-items-center">
+                    <a href="https://smartchainminer.com/" target="_blank">
                     <div class="">
                      
-                      <p>
+                     
                     
-
-                         <p>
-                        <a
-                          class="text-gradient"
-                          href="https://github.com/victor-ojong/"
-                          ><i class="bi bi-github"></i
-                        ></a>
-                        </p>
-                        <p>
-                        <a
-                          class="text-gradient"
-                          href="https://github.com/victor-ojong/"
-                          ><i class="bi bi-globe"></i
-                        ></a>
-                        </p>
                         <img src="./assets/port7.png" alt="" width="100%">
                   
                     </div>
+                    </a>
                   </div>
                 </div>
               </div>
