@@ -26,7 +26,7 @@
         const messagE = message.value;
         const name = `${userName.value} : ${phone}`;
         if (!email || !phone || !message) {
-          return (Swal.fire("Failed", "Sorry some required fields are empty", "error"));
+          return (Swal.fire("Failed", "Some required fields are empty", "error"));
         }
 
         // Prepare the email parameters
